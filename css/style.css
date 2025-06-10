@@ -124,7 +124,6 @@ h2.essentials-stroke {
 
 /* blog-main page */
 .blog-header { 
-      background: url('../images/blog-main.jpg') no-repeat center 45%;
       background-size: cover;
       height: 40vh;
       color: white;
