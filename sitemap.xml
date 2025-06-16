@@ -7,7 +7,7 @@
       <changefreq>monthly</changefreq>
    </url>
   
-   <!-- blog quantity - 2 -->
+   <!-- blog entry quantity - 3 -->
 
    <url>
       <loc>http://www.trailblazestudios.com/blog-main.html</loc>
@@ -18,7 +18,7 @@
    
  <url>
       <loc>http://www.trailblazestudios.com/blogs/6-16-25-wedding_cake.html</loc>
-      <lastmod>2025-06-11</lastmod>
+      <lastmod>2025-06-16</lastmod>
       <priority>0.8</priority>
       <changefreq>yearly</changefreq>
    </url>
