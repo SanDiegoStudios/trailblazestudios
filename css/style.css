@@ -174,7 +174,7 @@ h2.essentials-stroke {
     display: none;
   }
    .gallery img {
-  max-height: 200px; /* Adjust this value as needed for your desired height */
+  max-height: 100px; /* Adjust this value as needed for your desired height */
   width: 100%; /* Ensure images take full width of their container */
   object-fit: cover; /* This is crucial: it crops the image to fit the container while maintaining aspect ratio */
   display: block; /* Removes extra space below images */
