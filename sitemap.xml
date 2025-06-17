@@ -7,13 +7,19 @@
       <changefreq>monthly</changefreq>
    </url>
   
-   <!-- blog entry quantity - 3 -->
-
-   <url>
+   <!-- blog entry quantity - 4 -->
+ <url>
       <loc>http://www.trailblazestudios.com/blog-main.html</loc>
       <lastmod>2025-06-11</lastmod>
       <priority>0.8</priority>
       <changefreq>weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>http://www.trailblazestudios.com/blogs/6-17-25-Clay-Venues.html</loc>
+      <lastmod>2025-06-17</lastmod>
+      <priority>0.8</priority>
+      <changefreq>yearly</changefreq>
    </url>
    
  <url>
