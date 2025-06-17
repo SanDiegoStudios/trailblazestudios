@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trailblaze Studios | Blog Post</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <div id="navbarblogs"></div>
+
+  <!-- Blog Header -->
+ <header class="blog-header" style="background: url('images/6-17-25-Clay-Venues.jpg') no-repeat center 55%;">
+  <h1> Why choose Clay Venues for your wedding reception </h1>
+</header>
+
+  <!-- Blog Content for Clay Venues -->
+<section class="py-5">
+  <div class="container">
+    <article class="blog-article">
+      <p class="text-muted">Posted on June 17, 2025</p>
+      <h2>Why Clay Venues Is the Ultimate Wedding Destination in Colorado Springs</h2>
+
+      <p>Planning your dream wedding in Colorado Springs? Let us introduce you to the crown jewel of downtown wedding venues—<strong>Clay Venues</strong>. Blending industrial elegance with mountain magic, this all-inclusive, weatherproof gem is everything a couple could want—and more. Here’s why Clay Venues is the perfect canvas for your love story.</p>
+
+      <h3>✨ Urban Chic Meets Mountain Magic</h3>
+      <ul>
+        <li><strong>Prime Location:</strong> In the heart of downtown, Clay is walkable to hotels, bars, and eateries—ideal for a full wedding weekend.</li>
+        <li><strong>Mountain Proximity:</strong> Capture epic portraits at Garden of the Gods or Pikes Peak just minutes away.</li>
+      </ul>
+
+      <h3>🏢 Aesthetic That Adapts to You</h3>
+      <ul>
+        <li><strong>Blank-Canvas Beauty:</strong> Exposed brick, wood ceilings, and huge windows deliver a modern, warm vibe.</li>
+        <li><strong>Flexible Layout:</strong> Moveable walls allow easy flow from ceremony to reception.</li>
+        <li><strong>Stunning Lighting:</strong> Natural light all day + intelligent indoor lighting for evening vibes.</li>
+      </ul>
+
+      <h3>🎉 All-Inclusive, No Stress</h3>
+      <ul>
+        <li><strong>Two Packages:</strong> Classic and Signature include venue, DJ, bar, furniture, lighting, coordination, catering, and more.</li>
+        <li><strong>Upgrades:</strong> Hosted bar, florals, photo booth, custom decor, and more available.</li>
+        <li><strong>Flat Fees:</strong> Transparent pricing with no hidden service charges or surprise taxes.</li>
+      </ul>
+
+      <h3>🚀 The Clay Crew Makes Magic</h3>
+      <ul>
+        <li><strong>In-House Team:</strong> Photographer Becky, bar expert Aaron, and planner Tomi ensure your wedding runs like clockwork.</li>
+        <li><strong>Full AV Setup:</strong> DJ booth, mic, uplighting, and projector included.</li>
+        <li><strong>Décor Closet:</strong> Use candles, linens, arches, lights, and more at no extra cost.</li>
+      </ul>
+
+      <h3>⛅️ Always Weatherproof</h3>
+      <ul>
+        <li><strong>Indoor Elegance:</strong> No need to rent tents or worry about weather. Everything happens in beautiful, climate-controlled space.</li>
+        <li><strong>Plan B? Covered:</strong> Mountain views nearby allow for quick off-site shots without venue stress.</li>
+      </ul>
+
+      <h3>🏨 Designed with Guests in Mind</h3>
+      <ul>
+        <li><strong>Walkable Hotels:</strong> Antlers, Kinship Landing, and more are just blocks away.</li>
+        <li><strong>Accessibility:</strong> ADA-compliant design ensures all guests feel welcome and included.</li>
+        <li><strong>Weekend Fun:</strong> Make your wedding part of a city adventure with dining, nightlife, and hiking all nearby.</li>
+      </ul>
+
+      <h3>💸 Smart Pricing & Unmatched Value</h3>
+      <ul>
+        <li><strong>Affordable Packages:</strong> Starting around $121 per person with full-service inclusions.</li>
+        <li><strong>No Upcharges:</strong> Tax is already included. Insurance is minimal and straightforward.</li>
+        <li><strong>Custom Add-Ons:</strong> Build the wedding you want, from food trucks to florists.</li>
+      </ul>
+
+      <h3>🎓 Real Couples. Real Praise.</h3>
+      <ul>
+        <li><strong>Tia:</strong> “Modern, timeless, and totally customizable. Clay was everything we hoped for.”</li>
+        <li><strong>Quillan:</strong> “They made our day flawless. We saved so much with their included décor and vendor list.”</li>
+      </ul>
+
+      <h3>🌿 Final Thoughts</h3>
+      <p>If you're dreaming of a wedding with city vibes, mountain views, no surprises, and an incredible team—<strong>Clay Venues</strong> delivers. Book your tour today and let your love story unfold at one of Colorado Springs’ most stylish and stress-free wedding spaces.</p>
+
+      <p><strong>Clay Venues Location:</strong> 10 N Wahsatch Ave, Colorado Springs, CO<br>
+      <strong>Website:</strong> <a href="https://clayvenues.com/weddings/" target="_blank">https://clayvenues.com/weddings/</a></p>
+
+      <p><a href="../index.html" class="btn btn-primary">Back to Home</a></p>
+    </article>
+  </div>
+</section>
+
+   <div id="footerblog"></div>
+   
+  <!-- Navbar-->
+<script>
+          fetch('../navbarblogs.html')
+              .then(response => response.text())
+              .then(data => {
+                  document.getElementById('navbarblogs').innerHTML = data;
+              })
+              .catch(error => {
+                  console.error('Error loading navbarblogs:', error);
+              });
+  </script>
+   <!-- footer-->
+<script>
+          fetch('../footerblog.html')
+              .then(response => response.text())
+              .then(data => {
+                  document.getElementById('footerblog').innerHTML = data;
+              })
+              .catch(error => {
+                  console.error('Error loading footer:', error);
+              });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
