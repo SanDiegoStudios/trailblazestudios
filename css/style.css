@@ -173,10 +173,15 @@ h2.essentials-stroke {
   .Seven {
     display: none;
   }
-   .gallery img {
+  .gallery img {
   max-height: 100px; /* Adjust this value as needed for your desired height */
   width: 100%; /* Ensure images take full width of their container */
   object-fit: cover; /* This is crucial: it crops the image to fit the container while maintaining aspect ratio */
   display: block; /* Removes extra space below images */
-}
+  }
+  .blog-header h1 { 
+    font-size: 1.5rem;  /* 👈 Adjust this value as needed (default is usually 2.5–3rem) */
+    font-weight: 600;    /* Optional: slightly lighter for better readability on small screens */
+    line-height: 1.2;    /* Optional: tighter spacing if needed */
+  }
 }
