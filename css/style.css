@@ -97,6 +97,8 @@ body {
 
 .send:hover {
     color:#02535b;
+    background-color: #02535b; /* background on hover */
+    border-color: #02656e; /* optional: match border if it’s outlined */
 }
 
 .essentials {
