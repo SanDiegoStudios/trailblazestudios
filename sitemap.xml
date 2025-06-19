@@ -7,7 +7,6 @@
       <changefreq>monthly</changefreq>
    </url>
   
-   <!-- blog entry quantity - 4 -->
  <url>
       <loc>http://www.trailblazestudios.com/blog-main.html</loc>
       <lastmod>2025-06-11</lastmod>
@@ -15,32 +14,49 @@
       <changefreq>weekly</changefreq>
    </url>
 
+ <!-- blog entry quantity - 5 -->
+
+<url>
+  <loc>http://www.trailblazestudios.com/blogs/6-19-25-finding-the-right-wedding-planner.html</loc>
+  <lastmod>2025-06-19</lastmod>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
+
+<url>
+  <loc>http://www.trailblazestudios.com/blogs/6-18-25-finding-the-right-wedding-dress.html</loc>
+  <lastmod>2025-06-13</lastmod>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
+
+
    <url>
       <loc>http://www.trailblazestudios.com/blogs/6-17-25-Clay-Venues.html</loc>
       <lastmod>2025-06-17</lastmod>
       <priority>0.8</priority>
-      <changefreq>yearly</changefreq>
+      <changefreq>monthly</changefreq>
    </url>
    
  <url>
       <loc>http://www.trailblazestudios.com/blogs/6-16-25-wedding_cake.html</loc>
       <lastmod>2025-06-16</lastmod>
       <priority>0.8</priority>
-      <changefreq>yearly</changefreq>
+      <changefreq>monthly</changefreq>
    </url>
 
    <url>
       <loc>http://www.trailblazestudios.com/blogs/6-11-25-5-locations-for-wedding-photos-colorado-springs.html</loc>
       <lastmod>2025-06-16</lastmod>
       <priority>0.7</priority>
-      <changefreq>yearly</changefreq>
+      <changefreq>monthly</changefreq>
    </url>
 
     <url>
       <loc>http://www.trailblazestudios.com/blogs/6-10-25-affordable-wedding-photography-colorado-springs.html</loc>
       <lastmod>2025-06-16</lastmod>
       <priority>0.7</priority>
-      <changefreq>yearly</changefreq>
+      <changefreq>monthly</changefreq>
    </url>
 
 </urlset>
