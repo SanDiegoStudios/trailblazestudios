@@ -14,7 +14,14 @@
       <changefreq>weekly</changefreq>
    </url>
 
- <!-- blog entry quantity - 5 -->
+ <!-- blog entry quantity - 7 -->
+
+<url>
+  <loc>http://www.trailblazestudios.com/blogs/6-20-25-wedding-ring-colorado-springs.html</loc>
+  <lastmod>2025-06-20</lastmod>
+  <priority>0.8</priority>
+  <changefreq>monthly</changefreq>
+</url>
 
 <url>
   <loc>http://www.trailblazestudios.com/blogs/6-19-25-finding-the-right-wedding-planner.html</loc>
